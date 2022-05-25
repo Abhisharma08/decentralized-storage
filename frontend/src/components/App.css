@@ -1,0 +1,100 @@
+/* Styles go here */
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 2px dashed skyblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-file {
+  display: none;
+}
+.file-label {
+  width: 75%;
+  border: 1px solid rgba(0, 255, 0, 1);
+  padding: 5px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  background-color: rgba(0, 255, 0, 0.3);
+}
+.file-label:hover {
+  background-color: rgba(0, 255, 0, 0.4);
+}
+.form-submit {
+  border: none;
+  height: 100%;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 255, 0.5);
+  color: white;
+}
+.form-submit:hover {
+  background-color: rgba(0, 0, 255, 0.4);
+}
+
+.App-logo {
+  max-width: 50vw;
+  max-height: 50vh;
+}
+.logout-btn {
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: white;
+  margin-inline: 10px;
+}
+
+.sidePanel {
+  width: 20vw;
+  height: 100vh;
+  border: rgba(0, 0, 0, 0.5) 1px solid;
+  overflow-y: auto;
+  padding: 50px 0;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.image-container {
+  width: 80%;
+  height: auto;
+  margin-inline: auto;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+  margin-bottom: 50px;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: none;
+}
+.delete-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 20px;
+  border: none;
+  color: rgb(245, 94, 94);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 30px;
+  margin: 0;
+}
+
+.delete-btn:hover,
+.delete-btn:active {
+  text-decoration: underline;
+}
